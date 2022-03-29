@@ -1,4 +1,4 @@
-1. You need to install GraalVM and set it as default JDK
+1. You need to install **GraalVM** and set it as default JDK
 2. In the project folder run the below command to build:
 ```shell
 ./mvnw -Pnative -DskipTests clean package
