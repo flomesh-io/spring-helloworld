@@ -1,4 +1,4 @@
-1. You need to install **GraalVM** and set it as default JDK
+1. You need to install **GraalVM** and set it as default JDK. If you want to build and run it on Apple M1, please refer to [this](https://spring.io/blog/2022/03/23/building-native-images-with-graalvm-and-spring-native-on-apple-s-m1-architecture) doc for how to install GraalVM.
 2. In the project folder run the below command to build:
 ```shell
 ./mvnw -Pnative -DskipTests clean package
